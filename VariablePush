@@ -1,0 +1,35 @@
+using System;
+
+namespace MyApplication
+{
+  class Program
+  {
+    static void Main(string[] args)
+    {
+      string firstName = "John";
+      string middleName = "Wayne";
+      string lastName = "Smith";
+      string fullName = firstName + " " + middleName + " " + lastName;
+      string firstMiddle = firstName + " " + middleName;
+      Console.WriteLine(fullName);
+      Console.WriteLine(lastName + ", " + firstMiddle);
+      
+      bool doorOpen = false;
+      bool doorLocked = true;
+      Console.WriteLine("Is the door open? " + doorOpen);
+      Console.WriteLine("Is the door locked? " + doorLocked);
+      
+      doorOpen = true;
+      if doorOpen = true
+      {
+        doorLocked = false;
+      }
+      Console.WriteLine("Is the door open? " + doorOpen);
+      Console.WriteLine("Is the door locked? " + doorLocked);
+      
+      int John = 30;
+      int Smith = 45;
+      Console.WriteLine(John + Smith);
+    }
+  }
+}
